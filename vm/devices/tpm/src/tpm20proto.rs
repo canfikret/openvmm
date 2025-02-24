@@ -1367,7 +1367,7 @@ pub mod protocol {
     #[derive(Debug, Copy, Clone, FromBytes, FromZeroes, AsBytes)]
     pub struct TpmtPublic {
         r#type: AlgId,
-        name_alg: AlgId,
+        pub name_alg: AlgId,
         object_attributes: TpmaObject,
         auth_policy: Tpm2bBuffer,
         // `TPMS_RSA_PARAMS`
