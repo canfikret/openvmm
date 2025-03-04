@@ -876,12 +876,14 @@ dependencies = [
  "getrandom",
  "inspect",
  "ms-tpm-20-ref",
+ "openssl",
  "sha2",
  "tpm",
  "tpm_resources",
  "tracing",
  "tracing-subscriber",
  "tracing_helpers",
+ "zerocopy",
 ]
 
 [[package]]
